@@ -1,0 +1,43 @@
+/*p.a{
+	color: #4F9C48;
+	background-color: #000;
+}
+
+p.b{
+	color: #9E43AE;
+	font-weight: bold;
+}
+
+body{
+	background-color: #666;
+}
+
+h1.x{
+	font-size: 100px;
+	padding-left: 10px;
+
+}
+a{
+	color:#9E43AE;
+	opacity: 0.8; 
+}*/
+
+
+
+
+nav.nav ul li.aa{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.nav ul li.aa a{
+	color: #9E43AE;
+	background-color: #777;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav.nav ul li.aa:hover a{
+	background-color: #1B1F94;
+	color:#EE2E5D;
+	transition: 0.2s all;
+}
