@@ -21,8 +21,33 @@ a{
 	color:#9E43AE;
 	opacity: 0.8; 
 }*/
+div#cont {
+	background-color: red;
+}
+
+div#cont div{
+	display: inline-block;
+	width: 49%
+}
+div#cont div.gauche{
+background-color: #777;
+vertical-align: top;
+
+}
 
 
+div#cont div.gauche h1,p{
+	padding: 40px;
+	width: 100%;
+}
+
+div#cont div.droite iframe{
+	margin: 50px;
+}
+
+div#cont div.droite{
+background-color: #675	
+}
 
 
 nav.nav ul li.aa{
@@ -40,4 +65,16 @@ nav.nav ul li.aa:hover a{
 	background-color: #1B1F94;
 	color:#EE2E5D;
 	transition: 0.2s all;
+}
+
+footer{
+	background-color: #777;
+}
+
+header{
+	background-color:#1B1F94; 
+}
+
+header img{
+	border-radius: 50%;
 }
